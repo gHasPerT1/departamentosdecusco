@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor: url(file:///D:/utp/OneDrive%20-%20Universidad%20Tecnologica%20del%20Peru/Pictures/1/image%20.webp), auto;
+}
+
+
+body{
+    /* background-color: #719cb1; */
+    width: 100%;
+   
+    background-color: black;
+    background-size: cover;
+    background-position-y: bottom ;
+
+
+    
+}
+body:hover{
+    position: absolute;
+    /* height: 100%;
+    width: 100%; */
+    animation: vapour 10s liner infinite;
+
+}
+
+@keyframes vapour {
+    
+    0%, 100%{
+       backdrop-filter: blur(0);
+    }
+    50%{
+        backdrop-filter: blur(2px);
+    }
+}
+
+body i{
+    position: absolute;
+    width: 2px;
+    height: 10px;
+    top: -10px;
+    animation: rain linear infinite;
+    background: white;
+    margin-top: 130px;
+    
+    
+}
+ @keyframes rain {
+     0%{
+         top: -10px;
+     }
+     100%{
+         top: 200vh }
+     
+ }
+
+
+
+/*letras*/
+
+
+h2{
+    color: aquamarine;
+    text-align: center;
+    margin-bottom: 15px;
+}
+p{
+    color: aquamarine;
+}
+
+/*main*/
+
+.principal{
+    height: 100%;
+    width: 80%;
+    /* background-color: red; */
+    margin: auto;
+    
+} 
+.contenedor{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 200px 200px;
+}
+/*platos*/
+
+.chiriuchu{
+    margin-top: 150px;
+    margin-left: 80px;
+}
+
+.cuy{
+    margin-top: 300px;
+
+}
+.adobo{
+    margin-top: 400px;
+}
+
+.kapchi{
+    margin-top: 200px;
+}
+
+.chairo{
+    margin-top: 180px;
+}
+
+/*lugares*/
+
+.sacsayhuaman{
+    margin-top: 200px;
+}
+
+
+/*cabeza*/
+
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: #2A3132
+}
+.cabeza{
+    height: 100px;
+    width: 85%;
+    background-color: #2A3132;
+    margin: auto;
+}
+
+.title{
+    box-sizing: border-box;
+    float: left;
+    /* background-color: yellow; */
+    margin-top: 30px;
+    margin-left: 15px;
+    letter-spacing: 5px;
+}
+
+
+.title h1 a:hover{
+    color: coral;
+}
+
+.naveg{
+    height: 90px;
+    width: 70%;
+    /* background-color: aquamarine; */
+    background-color: #2A3132;
+    float: right;
+    box-sizing: border-box;
+}
+
+.naveg li{
+    display: inline;
+    float: right;
+    letter-spacing: 3px;
+    margin-left: 30px;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-right: 20px;
+    font-family: 'Lobster', cursive;
+
+}
+ .title h1{
+    font-family: 'Lobster', cursive;
+    
+    
+ }
+.title h1 a{
+    color: aquamarine;
+    text-decoration: none;
+}
+
+
+.naveg li a{
+   text-decoration: none;
+   color: aquamarine;
+}
+ /*pie de pagina*/
+
+footer{
+    margin-top: 180px;
+    height: 300px;
+    width: 100%;
+    background-color: #2A3132;
+    display: flex;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+
+
+footer li {
+    
+    display: inline;
+    
+
+}
+
+
+footer li a{
+    text-decoration: none;
+    
+    margin-left: 300px;
+    color: aquamarine;
+    font-size: 30px;
+   
+}
+
+/*interaccion hover*/
+
+.cabeza li a:hover{
+    color: coral;
+}
+footer li a:hover{
+    color: coral;
+}

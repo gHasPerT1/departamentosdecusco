@@ -1,0 +1,89 @@
+.imagen1{
+    height: 300px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.imagen2{
+    height: 300px;
+    width: 400px;
+    margin-top: 200px;
+    margin-left: 90px;
+}
+
+.imagen3{
+    height: 300px;
+    width: 400px;
+    margin-top: 300px;
+    margin-left: 100px;
+}
+
+.imagen4{
+    height: 300px;
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 90px;
+    
+}
+
+.imagen5{
+    height: 300px;
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+/*imagenes de lugaresturisticos*/
+
+.i3{
+    height: 300px;
+    width: 400px;
+    margin-top: 350px;
+    margin-left: 100px;
+}
+
+/*animaciones*/
+
+.contenedor div h2{
+    clip-path: polygon(16% 100%, 16% 0, 86% 0, 87% 100%);
+    background-color: rgb(24, 26, 25);
+    transition-duration: 2s;
+    
+}
+
+.contenedor div h2:hover{
+
+    background-color: aquamarine;
+    clip-path:polygon(16% 100%, 41% 0, 86% 0, 63% 99%);
+    color: #000000; 
+}
+
+
+
+/*logo*/
+
+.logo{
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+    
+
+}
+.logocertus{
+    float: left;
+    margin-top: 0%;
+}
+
+
+
+.imagen1{
+    animation: mover 3s ;
+}
+
+
+
+footer li p{
+    margin-top: 20px;
+    margin-left: 150px;
+    font-size: 18px;
+}
